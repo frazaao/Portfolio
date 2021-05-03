@@ -1,0 +1,87 @@
+body{
+    margin: 0;    
+}
+
+body>img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+#header{   
+    padding: 1.5rem;
+    background: #528DFF ;  
+    text-align: center;
+    font: 600 1.2rem Rajdhani, sans-serif; 
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+#header>h1{    
+    color: white;   
+    margin:0 0rem 0 2rem;
+}
+
+#header>ul>a{    
+    color: white; 
+    margin: 0 1.5rem ;     
+}
+
+#header>ul>a:hover{
+    border-bottom: 0.2rem solid #2972FF;
+    transition: 200ms;
+}
+
+.avatar>img{
+    height: 40rem;
+    position: absolute;
+    top: 15rem;
+    right: 5rem;    
+}
+
+.presentation{
+    margin: 15rem 10rem ;
+}
+
+.presentation>h1{
+    margin: 0;
+    color:#528DFF ;
+    font: 600 4rem Rajdhani, sans-serif;
+    line-height: 1;
+}
+
+.presentation>h2{
+    margin: 0;
+    color: #D7D7D7;
+    font: 600 2.5rem Rajdhani, sans-serif;
+}
+
+.button img{
+    width:1.7rem;
+    height:1.7rem;
+    margin-right:1rem ;
+    fill: #FFF;
+}
+
+.button{
+    justify-content:center;
+    margin: 1rem 0;
+    padding: 0 2rem;
+    align-items: center;
+    display:flex;
+    width: 250px;
+    height: 50px;     
+    font: 600 1.5rem Rajdhani, sans-serif; 
+    border: none;
+    border-radius: 10px;  
+    background:#528DFF;
+}
+
+.button > a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
