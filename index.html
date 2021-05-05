@@ -1,54 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matheus Frazão | Portfólio</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto:wght@500&display=swap" rel="stylesheet">
-</head>
-<body style="background:#383838">   
-    <img src="./images/back.svg" alt="Background"> 
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500&family=Rajdhani:wght@500;600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background: #383838">
+    <img src="./images/back.svg" alt="Background" class="background" />
     <nav id="header">
-        <h1>Portfólio</h1>
-            <ul>
-                <a href="">Sobre mim</a>
-                <a href="">Projetos</a>
-                <a href="">Conhecimentos</a>
-            </ul>     
+      <h1>Portfólio</h1>
+      <ul>
+        <a href="#sobre">Sobre mim</a>
+        <a href="">Projetos</a>
+        <a href="#conhecimentos">Conhecimentos</a>
+      </ul>
     </nav>
-    <div class="home">        
-        <div class="presentation">
-            <h2>Hey, eu sou o</h2>
-            <h1>Matheus Frazão</h1>
-            <h2>Desenvolvedor Front-End</h2>
-            <a href="https://github.com/frazaao">
-            <button class="button">                
-                <img src="./images/github.svg" alt="LinkedIn">
-                <a href="https://github.com/frazaao">Github</a>               
-            </button>
-            </a>
-            
-            <a href="https://www.linkedin.com/in/matheus-paula-frazao-5b7284202/">
-            <button class="button" >                
-                <img src="./images/linkedin.svg" alt="LinkedIn">
-                <a href="https://www.linkedin.com/in/matheus-paula-frazao-5b7284202/">LinkedIn</a>               
-            </button>
-            </a>
+    <div class="home">
+      <div class="presentation">
+        <h2>Hey, eu sou o</h2>
+        <h1>Matheus Frazão</h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <a href="https://github.com/frazaao" class="button">
+          <img src="./images/github.svg" alt="LinkedIn" />
+          Github
+        </a>
 
-            <a href="https://api.whatsapp.com/send?phone=5534993053330">
-            <button class="button">                
-                <img src="./images/whatsapp.svg" alt="LinkedIn">
-                <a href="https://api.whatsapp.com/send?phone=5534993053330">WhatsApp</a>               
-            </button>
-            </a>        
+        <a
+          href="https://www.linkedin.com/in/matheus-paula-frazao-5b7284202/"
+          class="button"
+        >
+          <img src="./images/linkedin.svg" alt="LinkedIn" />
+          LinkedIn
+        </a>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=5534993053330"
+          class="button"
+        >
+          <img src="./images/whatsapp.svg" alt="LinkedIn" />
+          WhatsApp
+        </a>
+      </div>
+      <div class="avatar">
+        <img src="./images/avatar.png" alt="Avatar" />
+      </div>
+    </div>
+
+    <div class="sobre" id="sobre">
+      <img
+        src="https://avatars.githubusercontent.com/u/71556358?v=4"
+        alt="Perfil"
+      />
+      <div>
+        <h2>Titulo</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
+          ipsam, fugit consectetur ea quae rerum et vitae accusantium quas
+          excepturi fugiat cum hic, obcaecati tempore officiis temporibus
+          veritatis repellat ex?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero omnis
+          recusandae similique delectus eligendi fuga perspiciatis aliquid,
+          cupiditate corrupti cum, possimus rerum fugit veritatis optio
+          dignissimos rem tempore laboriosam! Labore!
+        </p>
+      </div>
+    </div>
+
+    <div id="conhecimentos">
+        <div class="tag-conhecimentos">
+            <img src="./images/html-5.svg" alt="HTML">
+            <h3>HTML 5</h3>
+            <p>1 ano de experiencia</p>
         </div>
-        <div class="avatar">    
-            <img src="./images/avatar.png" alt="Avatar">
+        <div class="tag-conhecimentos">
+            <img src="./images/css-3.svg" alt="HTML">
+            <h3>CSS 3</h3>
+            <p>1 ano de experiencia</p>
         </div>
-    </div>    
-</body>
+        <div class="tag-conhecimentos">
+            <img src="./images/javascript.svg" alt="HTML">
+            <h3>Javascript</h3>
+            <p>2 meses de experiencia</p>
+        </div>
+        <div class="tag-conhecimentos">
+            <img src="./images/wordpress.svg" alt="HTML">
+            <h3>Wordpress</h3>
+            <p>2 meses de experiencia</p>
+        </div>
+        <div class="tag-conhecimentos">
+            <img src="./images/react.svg" alt="HTML">
+            <h3>ReactJs</h3>
+            <p>1 mês de experiencia</p>
+        </div>
+        <div class="tag-conhecimentos">
+            <img src="./images/sass.svg" alt="HTML">
+            <h3>Sass</h3>
+            <p>1 mês de experiencia</p>
+        </div>
+    </div>
+    <div class="scrollToTop">
+      <a href="#header">
+        <img src="./images/arrowtop.svg" alt="Para o topo" />
+      </a>
+    </div>
+  </body>
 </html>
-
