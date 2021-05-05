@@ -158,8 +158,7 @@ a{
     margin:5rem 20rem; 
 }
 
-.tag-conhecimentos{ 
-    border: 1px solid red; 
+.tag-conhecimentos{    
     display: flex;
     flex-direction: column;    
     align-items: center;        
@@ -167,7 +166,7 @@ a{
     background: #444444;    
     text-align: center;
     padding:3rem 6rem;
-    //border-radius:2rem;
+    border-radius:2rem;
     color: white;    
 }
 
