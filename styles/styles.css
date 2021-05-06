@@ -29,6 +29,7 @@ a{
     align-items: center;
     display:flex;
     justify-content: space-between;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 #header>h1{    
@@ -51,6 +52,7 @@ a{
     position: absolute;
     z-index: -1;
     top: 0;
+    right: 0;
 }
 
 .avatar>img{
@@ -91,8 +93,7 @@ a{
 .button{
     justify-content:center;
     color: white;
-    margin: 1rem 0;
-    padding: 0 2rem;
+    margin: 1rem 0;    
     align-items: center;
     display:flex;
     width: 250px;
@@ -150,15 +151,21 @@ a{
     width: 4rem
 }
 
-#conhecimentos{
+.title{
+    color: #FFF;
+    text-align: center;
+    margin: auto;
+    font: 600 2rem Lexend,sans-serif;
+}
+
+#conhecimentos{   
     display: flex;
     flex-direction:row;
-    flex-wrap: wrap;
-    flex-basis: 33%;
+    flex-wrap: wrap;    
     margin:5rem 20rem; 
 }
 
-.tag-conhecimentos{    
+.card-conhecimentos{    
     display: flex;
     flex-direction: column;    
     align-items: center;        
@@ -170,15 +177,119 @@ a{
     color: white;    
 }
 
-.tag-conhecimentos p{
+.card-conhecimentos p{
+    width:10rem;
     font: 600 1rem Lexend, sans-serif;
 }
 
-.tag-conhecimentos h3{
+.card-conhecimentos h3{
+    width:10rem;
     font: 600 1.5rem Lexend, sans-serif;
 }
 
-.tag-conhecimentos img{
+.card-conhecimentos img{
     margin: auto;
     width: 4rem;
+}
+
+#projetos{   
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;    
+    margin:5rem 20rem; 
+}
+
+.card-projetos{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;        
+    margin: 1rem auto;
+    background: #444444;    
+    text-align: center;
+    padding:3rem 6rem;
+    border-radius:2rem;
+    color: white; 
+
+}
+
+.card-projetos h3{
+    width:10rem;
+    font: 600 1.5rem Lexend, sans-serif;
+}
+
+.card-projetos p{
+    width:15rem;
+    line-height: 1;
+    font: 600 1rem Lexend, sans-serif;
+}
+
+.card-projetos img{    
+    height: 4rem;
+    border-radius: 0.5rem;
+}
+
+.tecnologias{  
+    margin: 1rem 0;  
+    font: 600 0.9rem lexend, sans-serif;
+}
+
+.tecnologias h4{    
+    display: inline;
+    margin: 0.5rem;
+    background: #1f1f1f;
+    padding: 0.5rem;border-radius: 0.5rem;
+}
+
+#aprendizado{   
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;    
+    margin:5rem 20rem;
+}
+
+.card-aprendizado{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;        
+    margin: 1rem auto;
+    background: #444444;    
+    text-align: center;
+    padding:3rem 3rem;
+    border-radius:2rem;
+    color: white;  
+
+}
+
+.card-aprendizado h3{  
+    width:15rem;  
+    margin: 2rem;
+    font: 600 1rem Lexend, sans-serif;
+}
+
+.card-aprendizado p{
+    width:15rem;
+    line-height: 1;
+    font: 600 0.8rem Lexend, sans-serif;
+}
+
+.card-aprendizado img{    
+    height: 4rem;
+    border-radius: 0.5rem;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: #2972FF;
+    color: #FFF;    
+    font: 600 0.7rem Lexend, sans-serif;
+}
+
+footer h2{
+    margin: 0;
+}
+
+footer img{
+    height: 1.5rem;
+    margin: 1rem 2rem;
 }
