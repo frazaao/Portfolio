@@ -110,7 +110,7 @@ a{
 }
 
 .sobre{
-    font: 500 1.5rem Lexend, sans-serif;
+    font: 300 1.5rem Lexend, sans-serif;
     display: flex;
     flex-direction: row;
     flex: 1;
