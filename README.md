@@ -20,7 +20,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 ## 🔗 Clone o projeto e acesse a pasta de desenvolvimento
 
 ```bash
-$ git clone https://github.com/frazaao/Podcastr.git && cd podcastr
+$ git clone https://github.com/frazaao/Portfolio.git && cd portfolio
 ```
 
 <h3>
