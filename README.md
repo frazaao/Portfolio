@@ -23,6 +23,11 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 $ git clone https://github.com/frazaao/Portfolio.git && cd portfolio
 ```
 
+## Melhorias
+
+- Tornar o projeto responsivo para dispositivos mobile
+- Adicionar elementos e efeitos JavaScript
+
 <h3>
     Feito com ❤️ por <a href="https://www.linkedin.com/in/matheus-paula-frazao-5b7284202/">Matheus Paula Frazão</a>
 </h3>
