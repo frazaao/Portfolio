@@ -6,7 +6,7 @@
   Portfólio pessoal criado para apresentar os projetos criados! 
 </h3>
 
-<img src="./images/porfolio.PNG" alt="Projeto">
+<img src="https://github.com/frazaao/Portfolio/blob/main/images/portfolio.PNG" alt="Projeto">
 
 <h3 align="center"><a href="https://matheusfrazao.vercel.app/">Clique para visitar o site</a></h3>
 
